@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<estados>	
+ <uf name='SP' />
+ <uf name='MG' />
+ <uf name='RJ' />
+</estados> 
+
+INCLUIR
+
+MessageBox.Show("Indice: " + cbUF.SelectedIndex + ". Item: " +
+dsEstados.Tables["uf"].Rows[cbUf.SelectedIndex]["name"].ToString
